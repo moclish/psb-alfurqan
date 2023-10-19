@@ -706,6 +706,73 @@ section {
     background: #f51f9c;
 }
 
+.services .service-box.orange {
+    border-bottom: 3px solid #f68c09;
+}
+
+.services .service-box.orange .icon {
+    color: #f68c09;
+    background: #fde3c4;
+}
+
+.services .service-box.orange .read-more {
+    color: #f68c09;
+}
+
+.services .service-box.orange:hover {
+    background: #f68c09;
+}
+
+.services .service-box.red {
+    border-bottom: 3px solid #4682a9;
+}
+
+.services .service-box.red .icon {
+    color: #4682a9;
+    background: #fef7f8;
+}
+
+.services .service-box.red .read-more {
+    color: #4682a9;
+}
+
+.services .service-box.red:hover {
+    background: #4682a9;
+}
+
+.services .service-box.pink1 {
+    border-bottom: 3px solid #9a208c;
+}
+
+.services .service-box.pink1 .icon {
+    color: #9a208c;
+    background: #fef7f8;
+}
+
+.services .service-box.pink1 .read-more {
+    color: #9a208c;
+}
+
+.services .service-box.pink1:hover {
+    background: #9a208c;
+}
+
+.services .service-box.pink2 {
+    border-bottom: 3px solid #ff78c4;
+}
+
+.services .service-box.pink2 .icon {
+    color: #ff78c4;
+    background: #fef7f8;
+}
+
+.services .service-box.pink2 .read-more {
+    color: #ff78c4;
+}
+
+.services .service-box.pink2:hover {
+    background: #ff78c4;
+}
 .services .service-box:hover h3,
 .services .service-box:hover p,
 .services .service-box:hover .read-more {
