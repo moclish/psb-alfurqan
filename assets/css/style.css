@@ -601,7 +601,7 @@ section {
 .services .service-box {
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
     height: 100%;
-    padding: 60px 30px;
+    padding: 40px 25px;
     text-align: center;
     transition: 0.5s;
     border-radius: 10px;
