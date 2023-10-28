@@ -575,16 +575,22 @@ section {
 }
 
 .values .box img {
-    padding: 30px 50px;
+    padding: 5px 5px;
     transition: 0.5s;
     transform: scale(1.1);
+}
+
+.values .box .img-pend {
+    height: 50px;
+    width: 50px;
 }
 
 .values .box h3 {
     font-size: 24px;
     color: #012970;
     font-weight: 700;
-    margin-bottom: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .values .box:hover {
@@ -953,6 +959,10 @@ section {
     text-align: center;
     font-size: 12px;
     color: #012970;
+}
+
+.footer i {
+    color: rgb(180, 1, 1);
 }
 
 @media (max-width: 768px) {
