@@ -3,6 +3,11 @@
     display: table;
     margin: auto;
 }
+
+.simply-countdown .simply-section:hover {
+    box-shadow: 0px 0 25px rgba(1, 41, 112, 0.1);
+    transform: scale(1);
+}
 .simply-countdown > .simply-section {
     width: 50px;
     height: 50px;
@@ -14,7 +19,8 @@
     float: left;
     margin: 12px;
     background: #fff;
-    box-shadow: 0 1px 3px rgba(1, 41, 112, 0.2), 0 1px 2px rgba(1, 41, 112, 0.3);
+    box-shadow: 1px 2px 3px rgba(1, 41, 112, 0.2),
+        1px 2px 3px rgba(1, 41, 112, 0.3);
     border-radius: 50%;
 }
 .simply-countdown > .simply-section .simply-amount,
