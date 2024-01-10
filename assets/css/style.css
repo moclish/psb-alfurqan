@@ -5,6 +5,14 @@
     scroll-behavior: smooth;
 }
 
+.disabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+    pointer-events: none;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
@@ -242,12 +250,12 @@ section {
     margin-left: 5px;
 }
 
-.navbar a:hover,
+/* .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
     color: #4154f1;
-}
+} */
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
